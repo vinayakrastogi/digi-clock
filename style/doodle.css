@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+.clock-container * {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+* {
+    color: rgb(81, 81, 81);
+}
+
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../assets/doodle.jpg");
+}
+
+.container .navbar {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.container .navbar .navbar-button {
+    letter-spacing: 1px;
+    transition: 1000ms;
+    font-weight: bold;
+}
+
+.container .navbar .navbar-button:hover {
+    transition: 200ms;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+/* .container .navbar .navbar-switch {} */
+
+/* .container .navbar .navbar-switch:hover {} */
+
+/* .container .navbar .navbar-styles{} */
+
+
+.clock-container {
+    border-radius: 3em;
+}
+
+.clock-container * {
+    color: rgb(33, 33, 33);
+    font-size: 40rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10rem;
+    margin: 2rem;
+    padding: 1rem;
+    backdrop-filter: blur(7px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}

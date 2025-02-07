@@ -20,6 +20,16 @@ html, body {
     justify-content: space-between;
 }
 
+
+.container .navbar .navbar-styles{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 5em;
+    transition: 300ms;
+}
+
 .container .navbar .navbar-button {
     background-color: transparent;
     border: none;
@@ -32,14 +42,6 @@ html, body {
 
 .container .navbar .navbar-switch {
     margin-left: 3em;
-}
-
-.container .navbar .navbar-styles{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    margin-right: 5em;
 }
 
 .clock-container {

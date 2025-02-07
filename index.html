@@ -1,38 +1,29 @@
 <html>
     <head>
         <title>Clock-App</title>
-        <link rel="stylesheet" href="style/main.css">
-        <link rel="stylesheet" href="style/basic.css">
-        <!-- <link rel="stylesheet" href="style/basic.css"> -->
+        <link id="main-theme" rel="stylesheet" href="style/main.css">
+        <link id="theme-changer" rel="stylesheet" href="style/basic.css">
     </head>
     <body>    
         <div class="container">
             <nav class="navbar">
-                <button class="navbar-button navbar-switch">CLOCK CONTAINER</button>
+                <button id="toggle-nav" class="navbar-button navbar-switch">CLOCK CONTAINER < </button>
                 <!-- <a>Hide</a> -->
-                <div class="navbar-styles">
-                    <button class="navbar-button">One</button>
-                    <button class="navbar-button">Two</button>
-                    <button class="navbar-button">Three</button>
-                    <button class="navbar-button">Four</button>
-                    <button class="navbar-button">Five</button>
+                <div id="navbar-buttons" class="navbar-styles">
+                    <button class="navbar-button" onclick="changeTheme('style/basic.css')">DarK</button>
+                    <button class="navbar-button" onclick="changeTheme('style/doodle.css')" >Doodle</button>
+                    <button class="navbar-button" onclick="changeTheme('style/dracula.css')" >Dracula</button>
+                    <button class="navbar-button" onclick="changeThemeNoCSS('')">No CSS</button>
                 </div>
             </nav>
             <div class="clock-container">
-                <!-- <hr> -->
                 <div id="hours" class="hours">
                     XX
                 </div>
-                <!-- <div class="sep">
-                    :
-                </div> -->
+
                 <div id="minutes" class="minutes">
                     XX
                 </div>
-
-                <!-- <div id="seconds" class="seconds">
-                    XX
-                </div> -->
             </div>
 
         </div>
